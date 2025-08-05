@@ -12,6 +12,23 @@ This implementation integrates **Temporal’s OpenAI Agents SDK (Python)** with 
 * Optional fraud checks (Stripe Radar)
 * Real-time web UI dashboard
 
+## Development Setup
+
+This project uses [`uv`](https://github.com/astral-sh/uv) as its Python package manager.
+
+1. Install `uv` by following the instructions in its documentation.
+2. Install dependencies:
+
+   ```bash
+   uv sync
+   ```
+
+3. Run the test suite:
+
+   ```bash
+   uv run python -m pytest
+   ```
+
 ## System Architecture
 
 ### Components

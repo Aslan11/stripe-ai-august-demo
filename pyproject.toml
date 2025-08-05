@@ -1,0 +1,17 @@
+[project]
+name = "stripe-ai-august-demo"
+version = "0.1.0"
+description = "Scaffolding for Temporal Agentic AI Invoice Approval demo"
+requires-python = ">=3.11"
+dependencies = [
+    "temporalio",
+    "openai",
+    "stripe",
+    "flask",
+]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+pythonpath = [
+    "src",
+]
